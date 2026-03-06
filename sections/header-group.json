@@ -132,7 +132,7 @@
       ],
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "{% assign textstring = 'My custom string.' %}\n\nnormal text\n{{ textstring }}\n<h2>{{ shop.name }}</h2>\n<h3>tests</h3>",
+        "custom_liquid": "{% assign textstring = 'My custom string.' %}\n\nnormal text new\n{{ textstring }}\n<h2>{{ shop.name }}</h2>\n<h3>tests</h3>",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 48,
