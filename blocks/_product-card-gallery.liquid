@@ -12,7 +12,7 @@
       "
     >
       {%- if product.available == false or product.compare_at_price > product.price -%}
-        <div style="background:red"
+        <div style="background:green"
           class="
             product-badges__badge product-badges__badge--rectangle
             {% if product.available == false %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif product.compare_at_price > product.price %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
